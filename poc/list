@@ -1,0 +1,1304 @@
+        poles = [
+        
+                {value: 14002244,label: "Porte de Charenton"},
+        
+                {value: 14002240,label: "Porte Doree"},
+        
+                {value: 14002241,label: "Porte de Vitry"},
+        
+                {value: 14002242,label: "Quai d Ivry"},
+        
+                {value: 14002243,label: "Michel Bizot"},
+        
+                {value: 14002268,label: "Champs-sur-Marne (N370)"},
+        
+                {value: 14002266,label: "Dourdan (D149)"},
+        
+                {value: 14002285,label: "Pont Colbert (D446)"},
+        
+                {value: 14002282,label: "Villiers-Adam - Le Bois du Val (D1)"},
+        
+                {value: 14002281,label: "Frépillon (D44)"},
+        
+                {value: 14002276,label: "St-Ouen-l Aumone - ZA Le Vert Gallant"},
+        
+                {value: 14002277,label: "St-Ouen-l Aumone - Fonds de Vaux"},
+        
+                {value: 14002272,label: "St-Ouen-l Aumone (D14)"},
+        
+                {value: 14002273,label: "St-Ouen-l Aumone - Marcel Dassault"},
+        
+                {value: 14002184,label: "BP Gentilly"},
+        
+                {value: 14002186,label: "BP Ivry"},
+        
+                {value: 14002187,label: "Porte d Italie"},
+        
+                {value: 14002188,label: "Monge"},
+        
+                {value: 14002189,label: "Place d Italie"},
+        
+                {value: 14002190,label: "Quai de la Gare"},
+        
+                {value: 14002191,label: "Bercy Palais Omnisport"},
+        
+                {value: 14002176,label: "Bastille"},
+        
+                {value: 14002177,label: "Pont Double"},
+        
+                {value: 14002178,label: "Maubert Mutualite"},
+        
+                {value: 14002179,label: "Faculte Jussieu"},
+        
+                {value: 14002180,label: "Petit Pont"},
+        
+                {value: 14002181,label: "Diderot"},
+        
+                {value: 14002182,label: "Porte de Gentilly"},
+        
+                {value: 14002183,label: "BP Orleans"},
+        
+                {value: 14002201,label: "Arago"},
+        
+                {value: 14002200,label: "St Jacques"},
+        
+                {value: 14002203,label: "Cite Universitaire"},
+        
+                {value: 14002202,label: "Val De Grace"},
+        
+                {value: 14002205,label: "Denfert Rochereau"},
+        
+                {value: 14002204,label: "Montsouris"},
+        
+                {value: 14002207,label: "BP Villette"},
+        
+                {value: 14002206,label: "Pyrenees"},
+        
+                {value: 14002193,label: "Ivry Choisy"},
+        
+                {value: 14002192,label: "Tolbiac"},
+        
+                {value: 14002195,label: "Porte d Ivry"},
+        
+                {value: 14002194,label: "Gobelins"},
+        
+                {value: 14002197,label: "Voie Rive Gauche Bercy"},
+        
+                {value: 14002196,label: "Porte de Choisy"},
+        
+                {value: 14002199,label: "Ste Anne"},
+        
+                {value: 14002198,label: "Tombe-Issoire"},
+        
+                {value: 14002218,label: "BP Montreuil"},
+        
+                {value: 14002219,label: "BP Vincennes"},
+        
+                {value: 14002216,label: "Porte de Pantin"},
+        
+                {value: 14002217,label: "BP St Mande"},
+        
+                {value: 14002222,label: "Menilmontant"},
+        
+                {value: 14002223,label: "Porte de Montreuil"},
+        
+                {value: 14002221,label: "Voltaire"},
+        
+                {value: 14002210,label: "BP Pantin"},
+        
+                {value: 14002211,label: "Pre St Gervais"},
+        
+                {value: 14002208,label: "BP Lilas"},
+        
+                {value: 14002209,label: "BP St Gervais"},
+        
+                {value: 14002214,label: "Flandre"},
+        
+                {value: 14002215,label: "Porte de la Villette"},
+        
+                {value: 14002212,label: "Ourcq"},
+        
+                {value: 14002213,label: "Porte des Lilas"},
+        
+                {value: 14002235,label: "BP Doree"},
+        
+                {value: 14002234,label: "BP Charenton"},
+        
+                {value: 14002232,label: "BP Quai d Ivry"},
+        
+                {value: 14002239,label: "Grande Bibliotheque"},
+        
+                {value: 14002238,label: "Joseph Kessel"},
+        
+                {value: 14002237,label: "Porte de Bercy"},
+        
+                {value: 14002236,label: "Daumesnil"},
+        
+                {value: 14002227,label: "Charonne"},
+        
+                {value: 14002226,label: "Netter"},
+        
+                {value: 14002225,label: "Porte de Vincennes"},
+        
+                {value: 14002224,label: "Porte de St Mande"},
+        
+                {value: 14002231,label: "Pere Lachaise"},
+        
+                {value: 14002230,label: "Gambetta"},
+        
+                {value: 14002229,label: "Porte de Bagnolet"},
+        
+                {value: 14002228,label: "Nation"},
+        
+                {value: 14002373,label: "Mauregard"},
+        
+                {value: 26000171,label: "Penchard (D405-D140)"},
+        
+                {value: 14002372,label: "Epiais (D165)"},
+        
+                {value: 26000170,label: "Cergy-le-Haut"},
+        
+                {value: 14002375,label: "Acces Est_CDG"},
+        
+                {value: 26000169,label: "Puiseux (N14xD14)"},
+        
+                {value: 14002374,label: "Le-Mesnil-Amelot"},
+        
+                {value: 26000168,label: "Pontoise-les-Louvrais (N14xD922)"},
+        
+                {value: 14002369,label: "Le Plessis-Belleville"},
+        
+                {value: 26000175,label: "Pont de Neuilly (D1)"},
+        
+                {value: 26000174,label: "Peage de Coutevroult"},
+        
+                {value: 26000173,label: "Couilly-Pont-aux-Dames (D934)"},
+        
+                {value: 26000172,label: "Jossigny"},
+        
+                {value: 14002381,label: "Les Essarts-le-Roi"},
+        
+                {value: 26000163,label: "Fontenay-Tresigny (N36xN4)"},
+        
+                {value: 14002380,label: "Maurepas"},
+        
+                {value: 26000162,label: "Pontault-Combault (D604-N4)"},
+        
+                {value: 14002383,label: "Le Perray-en-Yvelines"},
+        
+                {value: 26000161,label: "Athis-Mons (N7)"},
+        
+                {value: 14002382,label: "Le Perray-en-Yvelines (D191)"},
+        
+                {value: 26000160,label: "Valenton (D94)"},
+        
+                {value: 26000167,label: "St Leu-la-Fôret (D502)"},
+        
+                {value: 26000166,label: "Meaux Centre"},
+        
+                {value: 14002379,label: "Elancourt"},
+        
+                {value: 26000165,label: "Meaux (N3xN330xA140)"},
+        
+                {value: 14002378,label: "Trappes"},
+        
+                {value: 26000186,label: "Le Pecq (D186)"},
+        
+                {value: 14002389,label: "Orsonville (D116)"},
+        
+                {value: 26000187,label: "St-Germain-en-Laye (D284)"},
+        
+                {value: 14002390,label: "Ablis (D177)"},
+        
+                {value: 26000184,label: "Marly-Le-Roi"},
+        
+                {value: 26000185,label: "Le Port-Marly (N13xN186)"},
+        
+                {value: 26000190,label: "St-Germain-en-Laye (D160)"},
+        
+                {value: 14002385,label: "Rambouillet (D937)"},
+        
+                {value: 14002386,label: "Rambouillet (D906)"},
+        
+                {value: 26000188,label: "Mareil-Marly (D98)"},
+        
+                {value: 14002387,label: "Rambouillet (D936)"},
+        
+                {value: 26000189,label: "St-Germain-en-Laye (N184xN13)"},
+        
+                {value: 14002396,label: "Vert-St-Denis (N105)"},
+        
+                {value: 26000178,label: "La Houssaye-en-Brie (D216)"},
+        
+                {value: 26000179,label: "Crisenoy (A5xN36)"},
+        
+                {value: 26000176,label: "Neuilly (N13)"},
+        
+                {value: 26000177,label: "La Houssaye-en-Brie (D436)"},
+        
+                {value: 26000182,label: "Chaumes-en-Brie (N36xD48)"},
+        
+                {value: 26000183,label: "Chaumes-en-Brie (N36xD144)"},
+        
+                {value: 26000180,label: "Crisenoy (N36xD130)"},
+        
+                {value: 26000181,label: "Guignes (N36xD619)"},
+        
+                {value: 26000137,label: "Peage des Eprunes"},
+        
+                {value: 26000136,label: "Melun"},
+        
+                {value: 26000139,label: "Reau (N6)"},
+        
+                {value: 26000138,label: "Evry-Gregy"},
+        
+                {value: 14002403,label: "Barbizon (N37)"},
+        
+                {value: 26000141,label: "Savigny-le-Temple (D50)"},
+        
+                {value: 26000140,label: "Savigny-le-Temple (N6)"},
+        
+                {value: 26000143,label: "Vaucresson (A13xA86)"},
+        
+                {value: 26000129,label: "Milly (D372)"},
+        
+                {value: 26000128,label: "Cely (D372)"},
+        
+                {value: 14002413,label: "Croix de Vileroy (D33)"},
+        
+                {value: 26000131,label: "Ris Orangis (A6xN104)"},
+        
+                {value: 26000130,label: "Peage de Fleury"},
+        
+                {value: 26000133,label: "Viry-Chatillon"},
+        
+                {value: 26000132,label: "Grigny"},
+        
+                {value: 26000135,label: "Rungis (A106)"},
+        
+                {value: 26000134,label: "Aeroport d Orly"},
+        
+                {value: 14002422,label: "Villeneuve-St-Georges (D38)"},
+        
+                {value: 26000152,label: "L Isle-Adam (N1-A16)"},
+        
+                {value: 26000153,label: "Villeneuve-la-Garenne (D986)"},
+        
+                {value: 26000154,label: "Epiais (A1xN104)"},
+        
+                {value: 14002421,label: "Villeneuve-St-Georges (N6)"},
+        
+                {value: 26000155,label: "Saint-Mard"},
+        
+                {value: 26000156,label: "Lagny-le-Sec"},
+        
+                {value: 26000157,label: "Brunoy (D50)"},
+        
+                {value: 14002416,label: "Montgeron (D31)"},
+        
+                {value: 26000158,label: "Montgeron (N448)"},
+        
+                {value: 26000159,label: "Montgeron (D50)"},
+        
+                {value: 14002430,label: "Marolles-en-Brie (D33E)"},
+        
+                {value: 26000144,label: "Foret de Marly Nord"},
+        
+                {value: 14002431,label: "Santeny (D33E)"},
+        
+                {value: 26000145,label: "Foret de Marly Sud"},
+        
+                {value: 14002428,label: "Limeil-Brévannes (D33)"},
+        
+                {value: 26000146,label: "Fontenay-le-Fleury"},
+        
+                {value: 14002429,label: "Villecresnes (D94)"},
+        
+                {value: 26000147,label: "Marcoussis"},
+        
+                {value: 26000148,label: "Fontenay-en-Parisis (D10)"},
+        
+                {value: 14002427,label: "Boissy-Saint-Léger (Gare)"},
+        
+                {value: 26000149,label: "La Croix Verte (D301)"},
+        
+                {value: 26000150,label: "Villiers-le-Sec (D9)"},
+        
+                {value: 26000151,label: "Maffliers (D78) (>Province)"},
+        
+                {value: 14002311,label: "Jouars-Pontchartrain (D134)"},
+        
+                {value: 14002312,label: "Plaisir (D30)"},
+        
+                {value: 14002315,label: "FinA86IntCof > D913"},
+        
+                {value: 14002314,label: "FinA86ExtCof > A13"},
+        
+                {value: 14002319,label: "PEAGE_RUEIL"},
+        
+                {value: 14002322,label: "Fin Duplex (Ext) > A13"},
+        
+                {value: 14002323,label: "Fin Duplex (Int) > D913"},
+        
+                {value: 14002325,label: "POI11"},
+        
+                {value: 14002326,label: "POI11"},
+        
+                {value: 14002327,label: "Verrières"},
+        
+                {value: 26000205,label: "Gambais (N12xD179)"},
+        
+                {value: 26000204,label: "Bazainville (N12)"},
+        
+                {value: 26000207,label: "Galluis (N12xD155)"},
+        
+                {value: 26000206,label: "La Queue les-Yvelines (N12xD199)"},
+        
+                {value: 26000201,label: "Houdan (N12)"},
+        
+                {value: 14002342,label: "Louvres (D317)"},
+        
+                {value: 26000200,label: "Palaiseau (École polytechnique)"},
+        
+                {value: 26000203,label: "Houdan (D983)"},
+        
+                {value: 26000202,label: "Houdan centre(D61)"},
+        
+                {value: 14002347,label: "Villiers-le-Sec"},
+        
+                {value: 26000197,label: "Conflans-Ste Honorine (centre)"},
+        
+                {value: 14002346,label: "Mareil-en-France (D316)"},
+        
+                {value: 26000196,label: "Achères (N184xD30)"},
+        
+                {value: 14002345,label: "Fontenay-en-Parisis (D10)"},
+        
+                {value: 26000199,label: "Palaiseau (A126xD444)"},
+        
+                {value: 26000198,label: "Cergy-Pontoise (D203)"},
+        
+                {value: 26000193,label: "St-Germain-en-Laye (Camp des Loges)"},
+        
+                {value: 26000192,label: "St-Germain-en-Laye (D190)"},
+        
+                {value: 26000195,label: "Achères - Grand Cormier (Gare RER)"},
+        
+                {value: 14002348,label: "Attainville (Int)"},
+        
+                {value: 26000194,label: "St-Germain (D308-Croix des Noailles)"},
+        
+                {value: 14002352,label: "Baillet-en-France (D34)"},
+        
+                {value: 26000216,label: "Bois d Arcy"},
+        
+                {value: 26000212,label: "Velizy (D53)"},
+        
+                {value: 26000213,label: "Pont Colbert (A86xN12)"},
+        
+                {value: 26000214,label: "Pontault-Combault"},
+        
+                {value: 26000215,label: "Trappes-R12"},
+        
+                {value: 26000208,label: "Jouars Pontchartrain (N12xD912)"},
+        
+                {value: 26000209,label: "Vaudoy-en-Brie"},
+        
+                {value: 14002364,label: "Dammartin-en-Goële"},
+        
+                {value: 26000211,label: "Bannost"},
+        
+                {value: 14001547,label: "Bois-Colombes (D909)"},
+        
+                {value: 26000049,label: "Janvry (A10xN104)"},
+        
+                {value: 26000048,label: "Les Ulis (A10xN104)"},
+        
+                {value: 26000051,label: "BP St-Cloud (D910xBP)"},
+        
+                {value: 26000050,label: "Nanterre (A14xD914XBC)"},
+        
+                {value: 14001551,label: "La Courneuve (N2)"},
+        
+                {value: 26000053,label: "Villepinte (A104xN2)"},
+        
+                {value: 14001550,label: "Saint-Denis"},
+        
+                {value: 26000052,label: "Villiers-Adam (N184xN104)"},
+        
+                {value: 14002521,label: "Coutevroult (D406)"},
+        
+                {value: 26000055,label: "Montigny-le-Bretonneux (N10xA12)"},
+        
+                {value: 14001548,label: "Gennevilliers (D19)"},
+        
+                {value: 26000054,label: "Compans (N1104xN2)"},
+        
+                {value: 26000057,label: "Allainville (A10xN191)"},
+        
+                {value: 26000056,label: "Ponthevrard (A10xA11)"},
+        
+                {value: 26000059,label: "Coutevroult (A4xN36)"},
+        
+                {value: 26000058,label: "Chauconin-Neufmontiers (A140xD5)"},
+        
+                {value: 14001543,label: "Villabé"},
+        
+                {value: 26000061,label: "Saint-Cloud"},
+        
+                {value: 26000060,label: "Quincy-Voisins (A4xA140)"},
+        
+                {value: 14001541,label: "Savigny-sur-Orge (D25)"},
+        
+                {value: 26000063,label: "Saint Germain-en-Laye"},
+        
+                {value: 14001540,label: "Chilly-Mazarin (D118)"},
+        
+                {value: 26000062,label: "Peage de Montesson"},
+        
+                {value: 14002510,label: "Serris (D231)"},
+        
+                {value: 26000032,label: "L Hay-les-Roses (A6AxA6B)"},
+        
+                {value: 14002511,label: "Dysneyland"},
+        
+                {value: 26000033,label: "Chevilly (A106xA6AxA6B)"},
+        
+                {value: 26000034,label: "Fresnes (A6BxA86)"},
+        
+                {value: 26000035,label: "Bezons"},
+        
+                {value: 14002506,label: "Le Plessis-Bellevue (D84)"},
+        
+                {value: 26000036,label: "Le Perreux-sur-Marne"},
+        
+                {value: 14002507,label: "Ferrières-en-Brie (D35)"},
+        
+                {value: 26000037,label: "Rungis (A86)"},
+        
+                {value: 14002504,label: "Oissery (D41)"},
+        
+                {value: 26000038,label: "Rueil"},
+        
+                {value: 14002505,label: "Lagny-le-Sec (D9)"},
+        
+                {value: 14001565,label: "Nanterre Port (D986)"},
+        
+                {value: 26000039,label: "BP Maillot (N13xBP)"},
+        
+                {value: 14002502,label: "Monthyon (D97)"},
+        
+                {value: 26000040,label: "Chilly-Mazarin (A6xA126)"},
+        
+                {value: 14002503,label: "Saint-Soupplets (D401-D9)"},
+        
+                {value: 14001555,label: "Fontenay-sous.Bois (N186)"},
+        
+                {value: 26000041,label: "Bondy (A3xA86)"},
+        
+                {value: 14001552,label: "Bobigny (D115)"},
+        
+                {value: 26000042,label: "Thiais (A86xN186)"},
+        
+                {value: 14002501,label: "Penchard (D140)"},
+        
+                {value: 14001553,label: "Bobigny (N186)"},
+        
+                {value: 26000043,label: "Rungis (D7xA86xN186)"},
+        
+                {value: 14002498,label: "Crégy-lès-Meaux (D38A)"},
+        
+                {value: 26000044,label: "La Courneuve (A1xA86)"},
+        
+                {value: 26000045,label: "La Courneuve (A86xA1)"},
+        
+                {value: 14002496,label: "Parc Activité Bellevue"},
+        
+                {value: 26000046,label: "Corbeil (A6xN104)"},
+        
+                {value: 26000047,label: "Evry (A6xN104)"},
+        
+                {value: 26000019,label: "Sannois (A15xA115)"},
+        
+                {value: 26000018,label: "Sannois (A15xD170)"},
+        
+                {value: 26000017,label: "Nanterre (A14xA86)"},
+        
+                {value: 26000016,label: "Rocquencourt (A12xA13)"},
+        
+                {value: 26000023,label: "Creteil Pompadour (A86xN406)"},
+        
+                {value: 26000022,label: "Gonesse (A1xA3xA104)"},
+        
+                {value: 26000021,label: "Rosny (A103xA3xA86)"},
+        
+                {value: 26000020,label: "BP Bagnolet (A3xBP)"},
+        
+                {value: 26000027,label: "Tigery (N104xA5A)"},
+        
+                {value: 26000026,label: "Tigery (N6)"},
+        
+                {value: 26000025,label: "Brie-Comte-Robert (N19)"},
+        
+                {value: 14001570,label: "Joinville (N186) (>Paris)"},
+        
+                {value: 26000024,label: "Pont de Sevres (N118xD910)"},
+        
+                {value: 26000031,label: "Arcueil (A6AxA6B)"},
+        
+                {value: 26000030,label: "BP Italie (A6BxBP)"},
+        
+                {value: 26000029,label: "BP Orleans (A6AxBP)"},
+        
+                {value: 26000028,label: "Reau (A5xA5AxA5B)"},
+        
+                {value: 26000002,label: "Saint-Maurice (A4xA86)"},
+        
+                {value: 26000003,label: "Lognes (A4xN104)"},
+        
+                {value: 26000001,label: "BP Bercy (A4xBP)"},
+        
+                {value: 26000006,label: "Aulnay (A1xA3)"},
+        
+                {value: 26000007,label: "Roissy (A1xA3)"},
+        
+                {value: 26000004,label: "Collegien (A4xA104)"},
+        
+                {value: 26000005,label: "BP Chapelle (A1xBP)"},
+        
+                {value: 26000010,label: "Massy (A10xA126)"},
+        
+                {value: 26000011,label: "Nogent (A4xA86)"},
+        
+                {value: 26000008,label: "Wissous (A10xA6xA6AxA6B)"},
+        
+                {value: 26000009,label: "Champlan (A10xA126)"},
+        
+                {value: 14002528,label: "Tigeaux (D21)"},
+        
+                {value: 26000014,label: "Villeparisis (A104xN3)"},
+        
+                {value: 14002529,label: "Villeneuve-le-Comte (D231)"},
+        
+                {value: 26000015,label: "BP Auteuil (A13xBP)"},
+        
+                {value: 14002530,label: "Voulangis (D235)"},
+        
+                {value: 26000012,label: "Mitry-Mory (N2)"},
+        
+                {value: 26000013,label: "Mitry-le-Neuf"},
+        
+                {value: 26000117,label: "Bievres (N118xD444)"},
+        
+                {value: 14002458,label: "Trilbardou"},
+        
+                {value: 26000116,label: "Antony (D920-D986)"},
+        
+                {value: 14002457,label: "Charmentray"},
+        
+                {value: 26000119,label: "Les Ulis (N446)"},
+        
+                {value: 14002456,label: "Claye-Souilly"},
+        
+                {value: 26000118,label: "Orsay"},
+        
+                {value: 14001612,label: "Sannois (D909) (>Paris)"},
+        
+                {value: 26000113,label: "Bondoufle (D31)"},
+        
+                {value: 26000112,label: "Courcouronnes"},
+        
+                {value: 26000115,label: "Chatenay-Malabry (D60)"},
+        
+                {value: 26000114,label: "La Mariniere (Ext)"},
+        
+                {value: 26000125,label: "Gare de Massy-Palaiseau"},
+        
+                {value: 26000124,label: "Villebon-sur-Yvette"},
+        
+                {value: 26000127,label: "Auvernaux (D948)"},
+        
+                {value: 26000126,label: "Mennecy (N191)"},
+        
+                {value: 14002455,label: "Annet-Sur-Marne (D404)"},
+        
+                {value: 26000121,label: "Machery"},
+        
+                {value: 14002454,label: "Claye-Souilly (D422)"},
+        
+                {value: 26000120,label: "Peage de Saint-Arnoult"},
+        
+                {value: 14002453,label: "Claye-Souilly (D404)"},
+        
+                {value: 26000123,label: "Villejust"},
+        
+                {value: 14002452,label: "Claye-Souilly (D212)"},
+        
+                {value: 26000122,label: "Aire de Limours_Briis-sous-Forges"},
+        
+                {value: 14002442,label: "Châtres"},
+        
+                {value: 26000100,label: "Pomponne"},
+        
+                {value: 26000101,label: "Noisiel"},
+        
+                {value: 14002440,label: "Tournan-en-Brie"},
+        
+                {value: 26000102,label: "Lognes"},
+        
+                {value: 14002441,label: "Tournan-en-Brie (D10)"},
+        
+                {value: 26000103,label: "Noisy-le-Grand"},
+        
+                {value: 14002446,label: "Fontenay-Trésigny (D402)"},
+        
+                {value: 26000096,label: "St-Ouen-l Aumône - Les Gros Chevaux"},
+        
+                {value: 26000097,label: "Mery sur Oise (A115xN184)"},
+        
+                {value: 26000098,label: "Villevaude (D34)"},
+        
+                {value: 26000099,label: "Montjay-la-Tour"},
+        
+                {value: 26000108,label: "Valenton (D30)"},
+        
+                {value: 26000109,label: "Servon"},
+        
+                {value: 14002432,label: "Servon"},
+        
+                {value: 26000110,label: "Brie-Comte-Robert"},
+        
+                {value: 14002433,label: "Bonneuil-sur-Marne"},
+        
+                {value: 26000111,label: "Combs-la-Ville (N104xA5B)"},
+        
+                {value: 14002438,label: "Chevry-Cossigny"},
+        
+                {value: 26000104,label: "Champigny-sur-Marne"},
+        
+                {value: 14002439,label: "Gretz-Armainvilliers"},
+        
+                {value: 26000105,label: "Maisons-Alfort"},
+        
+                {value: 26000106,label: "Valenton (D60)"},
+        
+                {value: 14002437,label: "Ozoir-la-Ferrière"},
+        
+                {value: 26000107,label: "Creteil (D60)"},
+        
+                {value: 26000087,label: "Rosny (N302)"},
+        
+                {value: 26000086,label: "Bobigny (D40)"},
+        
+                {value: 14002491,label: "Le Champ-Gaillard (D54)"},
+        
+                {value: 26000085,label: "Aubervilliers (D31)"},
+        
+                {value: 26000084,label: "Carrefour Pleyel"},
+        
+                {value: 14002493,label: "Eragny-Neuville"},
+        
+                {value: 26000083,label: "Villeneuve-la-Garenne (D7)"},
+        
+                {value: 14002492,label: "Aviateurs Alliers"},
+        
+                {value: 26000082,label: "Gennevilliers (A15xA86xN315)"},
+        
+                {value: 14002495,label: "Cergy"},
+        
+                {value: 26000081,label: "Eragny (A15xN184)"},
+        
+                {value: 14002494,label: "La Challe"},
+        
+                {value: 26000080,label: "Pontoise-Centre"},
+        
+                {value: 26000095,label: "Chennevieres"},
+        
+                {value: 26000094,label: "Saint-Denis (N401)"},
+        
+                {value: 14002483,label: "Puiseux-Pontoise"},
+        
+                {value: 26000093,label: "Le Bourget"},
+        
+                {value: 26000092,label: "Aeroport Roissy-CDG"},
+        
+                {value: 26000091,label: "Bondy (D78)"},
+        
+                {value: 14002484,label: "Osny"},
+        
+                {value: 26000090,label: "Aulnay (N2)"},
+        
+                {value: 26000089,label: "Villemomble (A103)"},
+        
+                {value: 26000088,label: "Rosny (D37)"},
+        
+                {value: 14002472,label: "Franconville (D508)"},
+        
+                {value: 26000070,label: "Saint-Cyr-l Ecole (N12)"},
+        
+                {value: 14002473,label: "Ermont (D401)"},
+        
+                {value: 26000071,label: "Buc (Ext)"},
+        
+                {value: 26000068,label: "Nanterre (A86xD914xD986)"},
+        
+                {value: 26000069,label: "Nanterre Universite"},
+        
+                {value: 14002476,label: "Beauchamp (D407)"},
+        
+                {value: 26000066,label: "Bougival"},
+        
+                {value: 14002477,label: "Taverny (D409)"},
+        
+                {value: 26000067,label: "Nanterre Prefecture"},
+        
+                {value: 14002478,label: "Lisses (D446)"},
+        
+                {value: 26000065,label: "Orgeval (A13xA14)"},
+        
+                {value: 26000078,label: "La Boursidiere (D986)"},
+        
+                {value: 26000079,label: "Colombes (D106)"},
+        
+                {value: 26000076,label: "Le Petit Clamart (N118xA86)"},
+        
+                {value: 26000077,label: "Auteuil (>Paris)"},
+        
+                {value: 26000074,label: "Bois d Arcy (A12xN12)"},
+        
+                {value: 14002469,label: "Villenoy (D5)"},
+        
+                {value: 26000075,label: "Courbevoie"},
+        
+                {value: 26000072,label: "Versailles-Satory (Ext)"},
+        
+                {value: 26000073,label: "Ablis (A11xN10)"},
+        
+                {value: 14002644,label: "Chambourcy"},
+        
+                {value: 14002642,label: "FP_ Italie"},
+        
+                {value: 14002641,label: "FP_Italie"},
+        
+                {value: 14002650,label: "PMV EXT A6B"},
+        
+                {value: 14002630,label: "Fin Duplex (Int) > N13"},
+        
+                {value: 14002629,label: "Fin Duplex (Ext) > N12"},
+        
+                {value: 14002628,label: "FinA86ExtCof > N12"},
+        
+                {value: 14002627,label: "FinA86iNtCof > A13"},
+        
+                {value: 14002639,label: "BAUA10"},
+        
+                {value: 14002638,label: "BAUA10"},
+        
+                {value: 14001440,label: "Charenton (D6)"},
+        
+                {value: 14001443,label: "Villiers-sur-Marne"},
+        
+                {value: 14001445,label: "Croissy-Beaubourg (D10P)"},
+        
+                {value: 14001457,label: "Villepinte"},
+        
+                {value: 14001456,label: "Villepinte (D40n)"},
+        
+                {value: 14001458,label: "Tremblay-en-France (D40n)"},
+        
+                {value: 14001463,label: "Torcy (D10p)"},
+        
+                {value: 14001462,label: "Saint-Thibault des Vignes (D934)"},
+        
+                {value: 14001477,label: "Orgemont (D311)"},
+        
+                {value: 14001475,label: "Clichy (D7)"},
+        
+                {value: 14001473,label: "La Défense -Bd Circulaire (D7)"},
+        
+                {value: 14001486,label: "Bondy (N3)"},
+        
+                {value: 14001487,label: "Aulnay (D115)"},
+        
+                {value: 14001484,label: "Romainville (D20-A1086)"},
+        
+                {value: 14001480,label: "Franconville (D14)"},
+        
+                {value: 14001481,label: "Montigny-les-Cormeilles (D392)"},
+        
+                {value: 14001492,label: "Igny (D60)"},
+        
+                {value: 14001491,label: "Palaiseau (D117)"},
+        
+                {value: 14001503,label: "Saclay (D36)"},
+        
+                {value: 14001502,label: "Vauhallan"},
+        
+                {value: 14002569,label: "Achères (Rte du Clocher)"},
+        
+                {value: 14001500,label: "Meudon la Foret"},
+        
+                {value: 14001499,label: "Meudon (D181)"},
+        
+                {value: 14001497,label: "Guyancourt"},
+        
+                {value: 14001496,label: "Versailles (D91)"},
+        
+                {value: 14002608,label: "Béton-Bazoches (rue Teissier)"},
+        
+                {value: 14001508,label: "Fleury-Merogis (D19-N445)"},
+        
+                {value: 14002609,label: "Béton-Bazoches (rue Teissier)"},
+        
+                {value: 14001509,label: "Sainte-Genevieve-des-Bois (D117)"},
+        
+                {value: 14001510,label: "Saint-Michel-sur-Orge"},
+        
+                {value: 14002611,label: "Béton-Bazoches (rue du Manteau)"},
+        
+                {value: 14001511,label: "Bretigny-sur-Orge (D133)"},
+        
+                {value: 14002612,label: "Béton-Bazoches (rue du Manteau)"},
+        
+                {value: 14001504,label: "Saint-Aubin (D128)"},
+        
+                {value: 14002613,label: "Béton-Bazoches (D15)"},
+        
+                {value: 14001505,label: "Bures-sur-Yvette"},
+        
+                {value: 14002614,label: "Béton-Bazoches (D15)"},
+        
+                {value: 14001506,label: "La Folie Bessin (D35-D118)"},
+        
+                {value: 14002615,label: "Béton-Bazoches (D55)"},
+        
+                {value: 14002616,label: "Fortail"},
+        
+                {value: 14002617,label: "Cerneux (D15)"},
+        
+                {value: 14001517,label: "Lesigny (D51)"},
+        
+                {value: 14002618,label: "Cerneux (D15)"},
+        
+                {value: 14001518,label: "Santeny (D51)"},
+        
+                {value: 14002619,label: "Courtacon (D204)"},
+        
+                {value: 14002620,label: "Cerneux (D71)"},
+        
+                {value: 14001512,label: "Linas (N20)"},
+        
+                {value: 14002621,label: "Sancy-les-Provins (D60)"},
+        
+                {value: 14001513,label: "Emerainville (D406)"},
+        
+                {value: 14002622,label: "Montceaux-lès-Provins (D403/D119)"},
+        
+                {value: 14001514,label: "Pontault-Combault (D361)"},
+        
+                {value: 14002623,label: "PEAGE_PONT COLBERT"},
+        
+                {value: 14001515,label: "Pontault-Combault (D21)"},
+        
+                {value: 14001525,label: "Saint-Germain-les-Corbeil (D402)"},
+        
+                {value: 14002595,label: "Voinsles (D112)"},
+        
+                {value: 14001527,label: "Etiolles (D448)"},
+        
+                {value: 14002594,label: "Montfort-L Amaury (N12xD76)"},
+        
+                {value: 14001526,label: "Saint-Germain-les-Corbeil (D33)"},
+        
+                {value: 14001521,label: "Combs-la-ville"},
+        
+                {value: 14002599,label: "limite secteur (Montceaux-lès-Provins)"},
+        
+                {value: 14002598,label: "limite secteur (Montceaux-lès-Provins)"},
+        
+                {value: 14001522,label: "Lieusaint (D50)"},
+        
+                {value: 14002601,label: "Rozay-en-Brie (D201)"},
+        
+                {value: 14001533,label: "Lieusaint (D402)"},
+        
+                {value: 14002600,label: "Rozay-en-Brie (D48_D49)"},
+        
+                {value: 14001529,label: "Evry (N7)"},
+        
+                {value: 14001528,label: "Port Evry"},
+        
+                {value: 14002607,label: "Béton-Bazoches (D90)"},
+        
+                {value: 14001531,label: "Moissy-Cramayel (D57)"},
+        
+                {value: 14002606,label: "Béton-Bazoches (D90)"},
+        
+                {value: 14001530,label: "Moissy-Cramayel (N19-N402)"},
+        
+                {value: 14001823,label: "Meudon (D57) (>Paris)"},
+        
+                {value: 14001813,label: "Massy (N20)"},
+        
+                {value: 14001803,label: "Le Guichet (N446)"},
+        
+                {value: 14001860,label: "Pierrelaye (D14)"},
+        
+                {value: 14001711,label: "Collégien (D128)"},
+        
+                {value: 14001681,label: "Reau (D306) (>Province)"},
+        
+                {value: 14001766,label: "Stains (N301)"},
+        
+                {value: 14001765,label: "Ivry (D154)"},
+        
+                {value: 14001773,label: "Saint-Denis (N1) "},
+        
+                {value: 14001754,label: "Sogaris"},
+        
+                {value: 14001736,label: "Choisy-le-Roi (D5)"},
+        
+                {value: 14002093,label: "BP Vanves"},
+        
+                {value: 14002092,label: "BP Brancion"},
+        
+                {value: 14002095,label: "Balard"},
+        
+                {value: 14002094,label: "BP Chatillon"},
+        
+                {value: 14002089,label: "Porte de La Plaine"},
+        
+                {value: 14002088,label: "BP Plaine"},
+        
+                {value: 14002091,label: "Porte de Vanves"},
+        
+                {value: 14002090,label: "Porte de Versailles"},
+        
+                {value: 14002085,label: "Georges V "},
+        
+                {value: 14002084,label: "Franklin Roosevelt"},
+        
+                {value: 14002087,label: "Voie Rive Gauche Invalides"},
+        
+                {value: 14002086,label: "Foch"},
+        
+                {value: 14002081,label: "Bir Hakeim"},
+        
+                {value: 14002080,label: "Bac Raspail"},
+        
+                {value: 14002083,label: "Champs Elysees Clemenceau"},
+        
+                {value: 14002082,label: "Pasteur"},
+        
+                {value: 14002108,label: "BP Aubervilliers"},
+        
+                {value: 14002110,label: "BP Clignancourt"},
+        
+                {value: 14002111,label: "Porte de Clignancourt"},
+        
+                {value: 14002104,label: "Gare de l Est"},
+        
+                {value: 14002105,label: "Le Peletier"},
+        
+                {value: 14002106,label: "Trinite"},
+        
+                {value: 14002107,label: "Ornano"},
+        
+                {value: 14002100,label: "Porte d Orleans"},
+        
+                {value: 14002101,label: "Alesia"},
+        
+                {value: 14002102,label: "Porte de Brancion"},
+        
+                {value: 14002103,label: "Maine - Daguerre"},
+        
+                {value: 14002096,label: "Convention"},
+        
+                {value: 14002097,label: "Plaisance"},
+        
+                {value: 14002098,label: "Vercingetorix"},
+        
+                {value: 14002099,label: "Porte de Chatillon"},
+        
+                {value: 14002063,label: "Duroc"},
+        
+                {value: 14002062,label: "Lecourbe"},
+        
+                {value: 14002061,label: "Boucicaut"},
+        
+                {value: 14002060,label: "Montparnasse"},
+        
+                {value: 14002059,label: "Invalides"},
+        
+                {value: 14002058,label: "Grand Palais"},
+        
+                {value: 14002057,label: "Place du Canada"},
+        
+                {value: 14002056,label: "Place de Finlande"},
+        
+                {value: 14002055,label: "Assemblee Nationale"},
+        
+                {value: 14002054,label: "Madeleine"},
+        
+                {value: 14002053,label: "Etoile"},
+        
+                {value: 14002052,label: "Voie Rive Gauche Alma"},
+        
+                {value: 14002051,label: "Place de Wagram"},
+        
+                {value: 14002050,label: "Parc Monceau"},
+        
+                {value: 14002049,label: "Place de Clichy"},
+        
+                {value: 14002048,label: "Porte de Champerret"},
+        
+                {value: 14002078,label: "Tour Eiffel"},
+        
+                {value: 14002079,label: "Sevres Babylone"},
+        
+                {value: 14002076,label: "Rennes - Raspail"},
+        
+                {value: 14002077,label: "Place de Varsovie"},
+        
+                {value: 14002074,label: "Voie Georges Pompidou Concorde"},
+        
+                {value: 14002075,label: "Concorde"},
+        
+                {value: 14002072,label: "Voie Rive Gauche Concorde"},
+        
+                {value: 14002073,label: "Champs Elysees Tuileries"},
+        
+                {value: 14002070,label: "Maison de la Radio"},
+        
+                {value: 14002071,label: "Voie Georges Pompidou Bir-Hakeim"},
+        
+                {value: 14002068,label: "Sevres Lecourbe"},
+        
+                {value: 14002069,label: "Cambronne"},
+        
+                {value: 14002066,label: "Tuileries"},
+        
+                {value: 14002067,label: "Place de l Alma"},
+        
+                {value: 14002064,label: "Ecole Militaire"},
+        
+                {value: 14002065,label: "Cognacq Jay"},
+        
+                {value: 14002153,label: "Richelieu Drouot"},
+        
+                {value: 14002152,label: "Musee d Orsay"},
+        
+                {value: 14002155,label: "Port Royal"},
+        
+                {value: 14002154,label: "Pont Morland"},
+        
+                {value: 14002157,label: "St Marcel - Hopital"},
+        
+                {value: 14002156,label: "Vavin"},
+        
+                {value: 14002159,label: "Carrousel"},
+        
+                {value: 14002158,label: "Charles de Gaulle"},
+        
+                {value: 14002145,label: "Mabillon"},
+        
+                {value: 14002144,label: "Musee de Cluny"},
+        
+                {value: 14002147,label: "Four - Rennes"},
+        
+                {value: 14002146,label: "St Germain"},
+        
+                {value: 14002149,label: "Luxembourg"},
+        
+                {value: 14002148,label: "Conti - Pont Neuf"},
+        
+                {value: 14002151,label: "Pyramides - Opera"},
+        
+                {value: 14002150,label: "Gay Lussac"},
+        
+                {value: 14002168,label: "Voie Georges Pompidou Bastille"},
+        
+                {value: 14002169,label: "Sully Morlan"},
+        
+                {value: 14002170,label: "Hotel de Ville"},
+        
+                {value: 14002171,label: "Voie Georges Pompidou Hotel de Ville"},
+        
+                {value: 14002172,label: "Voie Georges Pompidou Chatelet"},
+        
+                {value: 14002173,label: "Turbigo"},
+        
+                {value: 14002174,label: "Voltaire Lenoir"},
+        
+                {value: 14002175,label: "Ledru Rollin"},
+        
+                {value: 14002160,label: "Place de la Pyramide"},
+        
+                {value: 14002161,label: "Opera"},
+        
+                {value: 14002162,label: "Louvre"},
+        
+                {value: 14002163,label: "Palais Royal"},
+        
+                {value: 14002164,label: "Republique"},
+        
+                {value: 14002165,label: "Gare de Lyon"},
+        
+                {value: 14002166,label: "Quai Voltaire"},
+        
+                {value: 14002167,label: "Chatelet"},
+        
+                {value: 14002123,label: "Chateau Landon"},
+        
+                {value: 14002122,label: "Louis Blanc"},
+        
+                {value: 14002121,label: "Porte de la Chapelle"},
+        
+                {value: 14002120,label: "Porte d Aubervilliers"},
+        
+                {value: 14002127,label: "Riquet"},
+        
+                {value: 14002126,label: "Stalingrad"},
+        
+                {value: 14002125,label: "Jaures"},
+        
+                {value: 14002124,label: "Place du Colonel Fabien"},
+        
+                {value: 14002115,label: "Barbes Rochechouart"},
+        
+                {value: 14002114,label: "Gare du Nord"},
+        
+                {value: 14002113,label: "Porte de St Ouen"},
+        
+                {value: 14002112,label: "BP St Ouen"},
+        
+                {value: 14002119,label: "Crimee"},
+        
+                {value: 14002118,label: "Marx Dormoy"},
+        
+                {value: 14002117,label: "Chapelle"},
+        
+                {value: 14002116,label: "Lariboisiere"},
+        
+                {value: 14002138,label: "Arts et Metiers"},
+        
+                {value: 14002139,label: "Parmentier"},
+        
+                {value: 14002136,label: "Sous terrain - Halles"},
+        
+                {value: 14002137,label: "Strasbourg St Denis"},
+        
+                {value: 14002142,label: "Place St Michel"},
+        
+                {value: 14002143,label: "St Jacques - St Germain"},
+        
+                {value: 14002140,label: "Jules Ferry"},
+        
+                {value: 14002141,label: "Louvre Pont neuf"},
+        
+                {value: 14002130,label: "Voie Rive Gauche Austerlitz"},
+        
+                {value: 14002131,label: "Mazas Gare de Lyon"},
+        
+                {value: 14002128,label: "Quai de la Rapee"},
+        
+                {value: 14002129,label: "Gare d Austerlitz"},
+        
+                {value: 14002134,label: "Belleville"},
+        
+                {value: 14002135,label: "Chaussee d Antin"},
+        
+                {value: 14002132,label: "Louis Philippe"},
+        
+                {value: 14002133,label: "Reaumur Sebastopol"},
+        
+                {value: 14002016,label: "BP Issy"},
+        
+                {value: 14002017,label: "Voie Georges Pompidou St Exupery"},
+        
+                {value: 14002018,label: "Porte St Cloud"},
+        
+                {value: 14002019,label: "Quai St Exupery"},
+        
+                {value: 14002020,label: "BP Sevres"},
+        
+                {value: 14002021,label: "Garigliano"},
+        
+                {value: 14002022,label: "Place Leautaud"},
+        
+                {value: 14002023,label: "Ternes - Niel"},
+        
+                {value: 14002024,label: "Courcelles"},
+        
+                {value: 14002026,label: "Gare St Lazare"},
+        
+                {value: 14002027,label: "St Augustin"},
+        
+                {value: 14002028,label: "Auber"},
+        
+                {value: 14002029,label: "Miromesnil"},
+        
+                {value: 14002030,label: "Hausmann Courcelles"},
+        
+                {value: 14002031,label: "Faubourg St-Honore"},
+        
+                {value: 14002033,label: "Place des Ternes"},
+        
+                {value: 14002032,label: "Villiers"},
+        
+                {value: 14002035,label: "BP Clichy"},
+        
+                {value: 14002034,label: "Porte d Asnieres"},
+        
+                {value: 14002037,label: "BP Champerret"},
+        
+                {value: 14002036,label: "BP Asnieres"},
+        
+                {value: 14002039,label: "Porte de Clichy"},
+        
+                {value: 14002038,label: "BP Ternes"},
+        
+                {value: 14002041,label: "Brochant"},
+        
+                {value: 14002040,label: "Place du Nicaragua"},
+        
+                {value: 14002043,label: "Malesherbes"},
+        
+                {value: 14002042,label: "La Fourche"},
+        
+                {value: 14002045,label: "Rome"},
+        
+                {value: 14002044,label: "Guy Moquet"},
+        
+                {value: 14002047,label: "Porte des Ternes"},
+        
+                {value: 14002046,label: "Porte Maillot"},
+        
+                {value: 14002003,label: "BP Passy"},
+        
+                {value: 14002002,label: "Versailles - Exelmans"},
+        
+                {value: 14002001,label: "Exelmans"},
+        
+                {value: 14002007,label: "BP Muette"},
+        
+                {value: 14002006,label: "Porte Dauphine"},
+        
+                {value: 14002005,label: "BP Dauphine"},
+        
+                {value: 14002004,label: "Voie Georges Pompidou Grenelle"},
+        
+                {value: 14002010,label: "Porte d Auteuil"},
+        
+                {value: 14002009,label: "Porte de Passy"},
+        
+                {value: 14002008,label: "Porte de la Muette"},
+        
+                {value: 14002014,label: "Javel"},
+        
+                {value: 14002013,label: "Mirabeau"},
+        
+                {value: 14002012,label: "Molitor"},
+        
+        ];
+
