@@ -28,6 +28,8 @@ $mech->cookie_jar->set_cookie(0,'xtan','-','/','www.sytadin.fr');
 $mech->cookie_jar->set_cookie(0,'xtant','1','/','www.sytadin.fr');
 $mech->cookie_jar->set_cookie(0,'xtvrn','$330037$','/','www.sytadin.fr');
 
+$mech->add_header('Accept-Language' => 'fr-FR');
+
 $mech->submit_form(
     form_id   => 'ItineraireForm',
     fields    => { 
