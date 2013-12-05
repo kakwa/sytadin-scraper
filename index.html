@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Sytadin-scraper by kakwa</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Sytadin-scraper</h1>
+        <h2>sytadin traffic info scraper written in perl</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/kakwa/sytadin-scraper/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/kakwa/sytadin-scraper/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/kakwa/sytadin-scraper" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="sytadin-scraper" class="anchor" href="#sytadin-scraper"><span class="octicon octicon-link"></span></a>sytadin-scraper</h1>
+
+<p><a href="http://www.sytadin.fr">www.sytadin.fr</a> traffic info scraper written in perl.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>sytadin-scraper is released under MIT.</p>
+
+<h2>
+<a name="dependancies" class="anchor" href="#dependancies"><span class="octicon octicon-link"></span></a>Dependancies</h2>
+
+<ul>
+<li>WWW::Mechanize</li>
+<li>Getopt::Long</li>
+</ul><h2>
+<a name="command-line" class="anchor" href="#command-line"><span class="octicon octicon-link"></span></a>Command line</h2>
+
+<div class="highlight highlight-bash"><pre>&gt; sytadin-scraper -h
+usage: 
+* to search nodes:
+   sytadin-scraper <span class="o">[</span>-h<span class="o">]</span> -S <span class="s1">'&lt;node name&gt;'</span>
+* to query sytadin:
+   sytadin-scraper -s <span class="s1">'&lt;start node&gt;'</span> -e <span class="s1">'&lt;end node&gt;'</span> <span class="o">[</span>-v <span class="s1">'&lt;inter node&gt;'</span><span class="o">]</span> <span class="o">[</span>-l<span class="o">]</span>
+
+Command line utility to query www.sytadin.fr
+
+arguments:
+    -h, --help              : display this <span class="nb">help</span>
+    -l, --light             : light output 
+           <span class="o">(</span>format <span class="s1">'&lt;traject&gt;|&lt;reliability&gt;'</span> <span class="o">(</span>optional<span class="o">)</span>
+    -S, --search &lt;node name&gt;: search the nodes
+           matching <span class="s1">'.*&lt;node name&gt;.*'</span> 
+           in available nodes <span class="o">(</span><span class="k">case </span>insensitive<span class="o">)</span>
+    -s, --start &lt;start node&gt;: node where we start 
+    -e, --end &lt;end node&gt;    : node where we end
+    -v, --via &lt;inter node&gt;  : intermediate node <span class="o">(</span>optional<span class="o">)</span>
+
+&gt; sytadin-scraper -S clamart
+List of matching nodes:
+* <span class="s1">'Le Petit Clamart (N118xA86)'</span>
+
+&gt; ./bin/sytadin-scraper -s <span class="s1">'Plaisance'</span> <span class="se">\</span>
+    -e <span class="s1">'Evry (A6xN104)'</span> -v <span class="s1">'Janvry (A10xN104)'</span>  
+Plaisance to Evry <span class="o">(</span>A6xN104<span class="o">)</span> via Janvry <span class="o">(</span>A10xN104<span class="o">)</span>: 35mn <span class="o">(</span>44%<span class="o">)</span>
+</pre></div>
+
+<h2>
+<a name="library" class="anchor" href="#library"><span class="octicon octicon-link"></span></a>Library</h2>
+
+<div class="highlight highlight-perl"><pre><span class="k">use</span> <span class="nn">SYTADIN::</span><span class="n">Query</span><span class="p">;</span>
+
+
+<span class="c1"># search nodes (case insensitive)</span>
+<span class="k">print</span> <span class="s">"List of matching nodes:\n"</span><span class="p">;</span>
+<span class="k">foreach</span> <span class="p">(</span><span class="nn">SYTADIN::Query::</span><span class="n">search_node</span><span class="p">(</span><span class="s">'achères'</span><span class="p">)){</span>
+ <span class="k">print</span> <span class="s">"* '$_'\n"</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="k">print</span> <span class="s">"\n"</span><span class="p">;</span>
+
+<span class="k">my</span> <span class="nv">$start</span> <span class="o">=</span> <span class="s">'Le Petit Clamart (N118xA86)'</span><span class="p">;</span>
+<span class="k">my</span> <span class="nv">$end</span>   <span class="o">=</span> <span class="s">'Corbeil (A6xN104)'</span><span class="p">;</span>
+<span class="k">my</span> <span class="nv">$via</span>   <span class="o">=</span> <span class="s">'Janvry (A10xN104)'</span><span class="p">;</span>
+
+<span class="c1"># get the result page of sytadin (raw html)</span>
+<span class="k">my</span> <span class="nv">$page</span> <span class="o">=</span> <span class="nn">SYTADIN::Query::</span><span class="n">query_sytadin</span><span class="p">(</span><span class="nv">$start</span><span class="p">,</span> <span class="nv">$end</span><span class="p">,</span> <span class="nv">$via</span><span class="p">);</span>
+
+<span class="c1"># basic parsing of the html page </span>
+<span class="c1"># to get the traject_time and the reliability</span>
+<span class="k">my</span> <span class="nv">%info</span> <span class="o">=</span> <span class="nn">SYTADIN::Query::</span><span class="n">scan_result_page</span><span class="p">(</span><span class="nv">$page</span><span class="p">);</span>
+
+<span class="k">print</span> <span class="s">"traject: '$start' to '$end' via '$via':\n"</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"* traject time: $info{'traject_time'}\n"</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"* reliability: $info{'reliability'}%\n"</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"\n"</span><span class="p">;</span>
+
+<span class="c1"># another search</span>
+<span class="k">my</span> <span class="nv">$start</span> <span class="o">=</span> <span class="s">'Achères (N184xD30)'</span><span class="p">;</span>
+<span class="k">my</span> <span class="nv">$end</span>   <span class="o">=</span> <span class="s">'Corbeil (A6xN104)'</span><span class="p">;</span>
+<span class="k">my</span> <span class="nv">$via</span>   <span class="o">=</span> <span class="s">'Janvry (A10xN104)'</span><span class="p">;</span>
+
+<span class="c1"># direct access to the data (same as query_sytadin + scan_result_page)</span>
+<span class="k">my</span> <span class="nv">%info2</span> <span class="o">=</span> <span class="nn">SYTADIN::Query::</span><span class="n">get_time_reliability</span><span class="p">(</span><span class="nv">$start</span><span class="p">,</span> <span class="nv">$end</span><span class="p">,</span> <span class="nv">$via</span><span class="p">);</span>
+
+<span class="k">print</span> <span class="s">"traject: '$start' to '$end' via '$via':\n"</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"* traject time: $info2{'traject_time'}\n"</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"* reliability: $info2{'reliability'}%\n"</span><span class="p">;</span>
+</pre></div>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
