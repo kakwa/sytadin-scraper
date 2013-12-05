@@ -128,6 +128,7 @@ sub scan_result_page{
 
     my $flag_time = 0;
     my $flag_reliability = 0;
+    my $flag_additianal_time = 0;
     my @lines = split /\n/, $page;
 
     #we parse the page line by line
@@ -144,6 +145,13 @@ sub scan_result_page{
         elsif ( $flag_time and $line =~ />(.*)</ ){
             $result{ 'traject_time' } = $1;
             $flag_time = 0;
+            if ( $result{ 'traject_time' } =~ /\d{1,2}h/ ){
+                $flag_additianal_time = 1;
+            }
+        }
+        elsif ( $flag_additianal_time and $line =~ />(.*)</ ){
+            $result{ 'traject_time' } = "$result{ 'traject_time' }$1";
+            $flag_additianal_time = 0;
         }
         #apparently, we have the traject reliability
         elsif ( $flag_reliability and $line =~ /[^\d]*(\d{1,2})[^\d]*%[^\d]*/ ){
