@@ -68,7 +68,8 @@ if (not($start) or not($end)){
 my %info = SYTADIN::Query::get_time_reliability($start, $end, $via);
 
 my $via_message = "";
-if ($via != ''){
+
+if ($via ne ''){
     $via_message = " via $via"
 }
 
