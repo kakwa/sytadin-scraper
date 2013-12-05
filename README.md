@@ -55,7 +55,7 @@ foreach (SYTADIN::Query::search_node('achères')){
 print "\n";
 
 my $start = 'Le Petit Clamart (N118xA86)';
-my $end   =  'Corbeil (A6xN104)';
+my $end   = 'Corbeil (A6xN104)';
 my $via   = 'Janvry (A10xN104)';
 
 #get the result page of sytadin (raw html)
@@ -70,7 +70,7 @@ print "\n";
 
 #another search
 my $start = 'Achères (N184xD30)';
-my $end   =  'Corbeil (A6xN104)';
+my $end   = 'Corbeil (A6xN104)';
 my $via   = 'Janvry (A10xN104)';
 
 #direct access to the data (same as query_sytadin + scan_result_page)
