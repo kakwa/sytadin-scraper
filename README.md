@@ -20,19 +20,23 @@ Command line
 ```bash
 > sytadin-scraper -h
 usage: 
-   sytadin-scraper [-h] -S '<node name>' #search node
+* to search nodes:
+   sytadin-scraper [-h] -S '<node name>'
+* to query sytadin:
    sytadin-scraper -s '<start node>' -e '<end node>' [-v '<inter node>'] [-l]
 
 Command line utility to query www.sytadin.fr
 
-args:
-    -h: display this help
-    -S <node name>: search the name matching '.*<node name>.*' 
-        in available nodes (case insensitive)
-    -s <start node>: node where we start 
-    -e <end node>: node where we end
-    -l: light output (format '<traject>|<reliability>') (optional)
-    -v <inter node>: intermediate node (optional)
+arguments:
+    -h, --help              : display this help
+    -l, --light             : light output 
+           (format '<traject>|<reliability>' (optional)
+    -S, --search <node name>: search the nodes
+           matching '.*<node name>.*' 
+           in available nodes (case insensitive)
+    -s, --start <start node>: node where we start 
+    -e, --end <end node>    : node where we end
+    -v, --via <inter node>  : intermediate node (optional)
 
 > sytadin-scraper -S clamart
 List of matching nodes:
