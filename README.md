@@ -31,7 +31,7 @@ args:
         in available nodes (case insensitive)
     -s <start node>: node where we start 
     -e <end node>: node where we end
-    -l: light output (format '<traject>|<reliability>' (optional)
+    -l: light output (format '<traject>|<reliability>') (optional)
     -v <inter node>: intermediate node (optional)
 
 > sytadin-scraper -S clamart
