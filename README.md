@@ -42,9 +42,9 @@ arguments:
 List of matching nodes:
 * 'Le Petit Clamart (N118xA86)'
 
-> sytadin-scraper -s 'Le Petit Clamart (N118xA86)' \
-         -e 'Evry (A6xN104)' -v 'Janvry (A10xN104)'
-Le Petit Clamart (N118xA86) to Evry (A6xN104) via Janvry (A10xN104): 23mn (61%)
+> ./bin/sytadin-scraper -s 'Plaisance' \
+    -e 'Evry (A6xN104)' -v 'Janvry (A10xN104)'  
+Plaisance to Evry (A6xN104) via Janvry (A10xN104): 35mn (44%)
 ```
 
 Library
