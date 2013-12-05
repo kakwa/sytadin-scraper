@@ -14,7 +14,7 @@ Command line utility to query www.sytadin.fr
 
 args:
     -h: display this help
-    -S <node name>: search the name matching '.*<node name>.*' in available nodes (case insensituve 
+    -S <node name>: search the name matching '.*<node name>.*' in available nodes (case insensitive)
     -s <start node>: node where we start 
     -e <end node>: node where we end
     -v <intermediate node>: intermediate node (optional)
