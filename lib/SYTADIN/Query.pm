@@ -123,7 +123,7 @@ sub scan_result_page{
 
     my %result = ();
     $result{ 'traject_time' } = 'unkown';
-    $result{ 'reliability' } = 'unkown';
+    $result{ 'reliability' } = '0';
 
 
     my $flag_time = 0;
@@ -145,10 +145,16 @@ sub scan_result_page{
         elsif ( $flag_time and $line =~ />(.*)</ ){
             $result{ 'traject_time' } = $1;
             $flag_time = 0;
+
+            #if traject time is > 1h, traject time is on two lines
+            #the first line is hours if time > 1h, so, if we match \d{1,2}h
+            #it means that we have a second line near this line with the minutes
+            #so we set a flag
             if ( $result{ 'traject_time' } =~ /\d{1,2}h/ ){
                 $flag_additianal_time = 1;
             }
         }
+        #apparently, we have the minutes of the traject time
         elsif ( $flag_additianal_time and $line =~ />(.*)</ ){
             $result{ 'traject_time' } = "$result{ 'traject_time' }$1";
             $flag_additianal_time = 0;
@@ -158,6 +164,12 @@ sub scan_result_page{
             $result{ 'reliability' } = $1;
             $flag_reliability = 0;
         }
+    }
+
+    #if we didn't collect coherent data we reset to the default values
+    if (not($result{ 'traject_time' } =~ /(\d{1,2}h)?\d{1,2}mn/) or not($result{ 'reliability' } =~ /\d{1,2}/)){
+        $result{ 'traject_time' } = 'unkown';
+        $result{ 'reliability' }  = '0';
     }
     #we return the hash
     return %result;
