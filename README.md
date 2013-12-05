@@ -3,21 +3,21 @@ sytadin-scraper
 
 www.sytadin.fr traffic info scraper written in perl.
 
-License:
---------
+License
+-------
 
 sytadin-scraper is released under MIT.
 
-Dependancies:
--------------
+Dependancies
+------------
 
 * WWW::Mechanize
 * Getopt::Long
 
-Command line:
--------------
+Command line
+------------
 
-```
+```bash
 > sytadin-scraper -h
 usage: 
    sytadin-scraper [-h] -S '<node name>' #search node
@@ -40,10 +40,10 @@ List of matching nodes:
 Le Petit Clamart (N118xA86) to Evry (A6xN104): 27mn (51%)
 ```
 
-Library:
---------
+Library
+-------
 
-```
+```perl
 use SYTADIN::Query;
 
 
