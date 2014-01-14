@@ -89,3 +89,7 @@ print "traject: '$start' to '$end' via '$via':\n";
 print "* traject time: $info2{'traject_time'}\n";
 print "* reliability: $info2{'reliability'}%\n";
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kakwa/sytadin-scraper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
