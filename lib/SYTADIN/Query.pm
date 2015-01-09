@@ -122,7 +122,7 @@ sub scan_result_page{
     my $page = shift;
 
     my %result = ();
-    $result{ 'traject_time' } = 'unkown';
+    $result{ 'traject_time' } = 'unknown';
     $result{ 'reliability' } = '0';
 
 
@@ -168,7 +168,7 @@ sub scan_result_page{
 
     #if we didn't collect coherent data we reset to the default values
     if (not($result{ 'traject_time' } =~ /(\d{1,2}h)?\d{1,2}mn/) or not($result{ 'reliability' } =~ /\d{1,2}/)){
-        $result{ 'traject_time' } = 'unkown';
+        $result{ 'traject_time' } = 'unknown';
         $result{ 'reliability' }  = '0';
     }
     #we return the hash
