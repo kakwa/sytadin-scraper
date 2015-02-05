@@ -1,6 +1,8 @@
 sytadin-scraper
 ===============
 
+[![Join the chat at https://gitter.im/kakwa/sytadin-scraper](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kakwa/sytadin-scraper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 www.sytadin.fr traffic info scraper written in perl.
 
 License
